@@ -52,7 +52,7 @@ stats: {
             "2016":"n",
             "2019":"n"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2020-01":"n"
         },
         macos: {
@@ -135,6 +135,16 @@ stats: {
         desktop-webmail: {
             "2020-10":"n #6"
         }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "n"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "n #4"
+        }
     }
 }
 notes: ""
@@ -143,7 +153,7 @@ notes_by_num: {
   "2": "On submit name values are prefixed with `x_`.",
   "3": "Does not submit in preview pane, but does when the email is opened in a new window.",
   "4": "Not supported. `<form>` is transformed into `<noform>`.",
-  "5": "Not supported. The `<form>` and is entire content is removed.",
+  "5": "Not supported. The `<form>` and its entire content is removed.",
   "6": "Not supported. The `<form>` is there but values are not submitted."
 }
 ---

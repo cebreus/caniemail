@@ -48,7 +48,7 @@ stats: {
             "2016":"n",
             "2019":"n"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2020-10":"n"
         },
         macos: {
@@ -128,12 +128,23 @@ stats: {
         desktop-webmail: {
             "2020-10":"n"
         }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "n #4"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "n #3"
+        }
     }
 }
 notes_by_num: {
     "1": "Partial support. Does not support Videos resources.",
     "2": "Partial support. Does not support PDF resources.",
-    "3": "Not supported. `<object>` is turned into `<noobject>`."
+    "3": "Not supported. `<object>` is turned into `<noobject>`.",
+    "4": "Not supported. The `<object>` element and all its content is removed."
 }
 links: {
     "Can I use: Object element":"https://caniuse.com/mdn-html_elements_object",

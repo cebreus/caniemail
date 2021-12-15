@@ -49,7 +49,7 @@ stats: {
             "2016":"n",
             "2019":"n"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2021-05":"n"
         },
         macos: {
@@ -68,7 +68,7 @@ stats: {
     },
     samsung-email: {
         android: {
-            "6.0":"u"
+            "6.1":"y"
         }
     },
     sfr: {
@@ -128,6 +128,16 @@ stats: {
     mail-ru: {
         desktop-webmail: {
             "2021-05":"n"
+        }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "y"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "a #1"
         }
     }
 }

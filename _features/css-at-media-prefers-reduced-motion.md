@@ -1,8 +1,8 @@
 ---
-title: "@media (prefers-reduce-motion)"
+title: "@media (prefers-reduced-motion)"
 description: ""
 category: css
-keywords: media,prefers-reduce-motion,animation
+keywords: "media queries, media query, media feature, prefers-reduced-motion, animation, accessibility"
 last_test_date: "2021-02-20"
 test_url: "/tests/css-media-prefers-reduced-motion.html"
 test_results_url: "https://testi.at/proj/e3GT3l1CxqBUoE3u9keC4WLf5"
@@ -54,7 +54,7 @@ stats: {
 			"2016": "n",
 			"2019": "n"
 		},
-		windows-10-mail: {
+		windows-mail: {
 			"16005.13426.20316.0": "n"
 		},
 		macos: {
@@ -133,11 +133,23 @@ stats: {
 		desktop-webmail: {
 			"2021-02": "n"
 		}
-	}
+	},
+	fastmail: {
+		desktop-webmail: {
+			"2021-07": "n #1"
+		}
+	},
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "y"
+        }
+    }
 }
-notes_by_num: {}
+notes_by_num: {
+    "1": "Not supported. `@media (prefers-reduced-motion:reduce)` is transformed into `@media none`."
+}
 links: {
 	"Can I use: prefers-reduced-motion":"https://caniuse.com/prefers-reduced-motion",
-  "MDN: prefers-reduced-motion":"https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"
+	"MDN: prefers-reduced-motion":"https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"
 }
 ---

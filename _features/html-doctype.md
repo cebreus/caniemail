@@ -50,7 +50,7 @@ stats: {
             "2016":"n #2",
             "2019":"n #2"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2020-01":"y"
         },
         macos: {
@@ -61,10 +61,12 @@ stats: {
             "2019-07":"y"
         },
         ios: {
-            "2019-07":"a #1"
+            "2019-07":"a #1",
+            "2021-11":"y"
         },
         android: {
-            "2019-07":"a #1"
+            "2019-07":"a #1",
+            "2021-11":"y"
         }
     },
     samsung-email: {
@@ -129,6 +131,16 @@ stats: {
     mail-ru: {
         desktop-webmail: {
             "2020-10":"y"
+        }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "y"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "y"
         }
     }
 }

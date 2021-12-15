@@ -48,7 +48,7 @@ stats: {
             "2016":"n",
             "2019":"n"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2021-05":"n"
         },
         macos: {
@@ -128,6 +128,16 @@ stats: {
         desktop-webmail: {
             "2021-05":"n"
         }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "a #1 #6"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "a #4"
+        }
     }
 }
 notes_by_num: {
@@ -135,7 +145,8 @@ notes_by_num: {
     "2": "Partial. Supports `sticky` but not `relative`, `absolute` and `fixed`.",
     "3": "Partial. Supports `relative` but not  `absolute`, `sticky` and `fixed`.",
     "4": "Partial. Supports `relative` and `sticky` but not `absolute` and `fixed`.",
-    "5": "Buggy. `fixed` elements scroll with page."
+    "5": "Buggy. `fixed` elements scroll with page.",
+    "6": "Buggy. `fixed` is replaced by `absolute`.",
 }
 links: {
     "Can I use: CSS property: position":"https://caniuse.com/mdn-css_properties_position",

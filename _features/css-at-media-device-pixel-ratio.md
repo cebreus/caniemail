@@ -2,7 +2,7 @@
 title: "@media (-webkit-device-pixel-ratio)"
 description: ""
 category: css
-keywords: "media queries, query"
+keywords: "media queries, media query, media feature"
 last_test_date: "2019-08-20"
 test_url: "/tests/css-media.html"
 test_results_url: "https://app.emailonacid.com/app/acidtest/hMLCNCSKZYHkLgLOpIWltlnYjtagbNsrwzMxalc2VbghN/list"
@@ -51,7 +51,7 @@ stats: {
             "2016":"n",
             "2019":"n"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2020-01":"n"
         },
         macos: {
@@ -132,6 +132,16 @@ stats: {
     mail-ru: {
         desktop-webmail: {
             "2020-10":"n"
+        }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "y"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "y"
         }
     }
 }

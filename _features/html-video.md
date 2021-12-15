@@ -50,7 +50,7 @@ stats: {
             "2016":"n",
             "2019":"n"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2019-09":"n"
         },
         macos: {
@@ -133,6 +133,16 @@ stats: {
         desktop-webmail: {
             "2020-10":"n"
         }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "n #9"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "n #10"
+        }
     }
 }
 notes_by_num: {
@@ -143,7 +153,9 @@ notes_by_num: {
     "5": "Partial support. Requires the `controls` attribute to play.",
     "6": "Partial support. `autoplay` is not supported.",
     "7": "The `<video>` element is supported and the `poster` image is visible, but the video can not play due to a strict Content Security Policy.",
-    "8": "The `<video>` element is supported, but the video can not play due to a strict Content Security Policy."
+    "8": "The `<video>` element is supported, but the video can not play due to a strict Content Security Policy.",
+    "9": "Not supported. The `<video>` element and all its content is removed.",
+    "10": "Not supported. The `src` attribute is replaced by `data-src`."
 }
 links: {
     "Can I use: Video element":"https://caniuse.com/#feat=video",

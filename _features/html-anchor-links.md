@@ -1,6 +1,7 @@
 ---
-title: "Anchor links"
+title: "Local anchors"
 description: ""
+keywords: "hash, fragment identifiers, URLs, URIs, document fragments, local, named, anchor, anchors, links"
 category: html
 last_test_date: "2019-08-08"
 test_url: "/tests/html-anchor-links.html"
@@ -49,7 +50,7 @@ stats: {
 			"2016":"y #7",
 			"2019":"y #7"
 		},
-        windows-10-mail: {
+        windows-mail: {
             "2020-01":"y #7"
         },
 		macos: {
@@ -128,7 +129,17 @@ stats: {
         desktop-webmail: {
             "2020-10":"y #7 #9"
         }
-    }
+    },
+	fastmail: {
+		desktop-webmail: {
+			"2021-07": "y"
+		}
+	},
+	laposte: {
+		desktop-webmail: {
+			"2021-08": "n"
+		}
+	}
 }
 notes_by_num: {
 	"1": "Buggy. `target=_blank` is added on links so anchors open in a new window.",

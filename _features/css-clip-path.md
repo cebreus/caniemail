@@ -54,7 +54,7 @@ stats: {
 			"2016": "n",
 			"2019": "n"
 		},
-		windows-10-mail: {
+		windows-mail: {
 			"2021-02": "n"
 		},
 		macos: {
@@ -135,7 +135,17 @@ stats: {
 		desktop-webmail: {
 			"2021-02":"a #1 #2"
 		}
-	}
+	},
+	fastmail: {
+		desktop-webmail: {
+			"2021-07": "y"
+		}
+	},
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "y"
+        }
+    }
 }
 notes_by_num: {
 	"1": "Partial. `path()` is not supported.",

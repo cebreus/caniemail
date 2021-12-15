@@ -49,7 +49,7 @@ stats: {
             "2016":"u",
             "2019":"y"
         },
-        windows-10-mail: {
+        windows-mail: {
             "2020-10":"y"
         },
         macos: {
@@ -79,7 +79,8 @@ stats: {
             "2020-10":"y"
         },
         android: {
-            "2020-10":"u"
+            "2020-10":"n",
+            "2021-10":"y"
         }
     },
     thunderbird: {
@@ -128,6 +129,16 @@ stats: {
     mail-ru: {
         desktop-webmail: {
             "2020-10":"y"
+        }
+    },
+    fastmail: {
+        desktop-webmail: {
+            "2021-07": "y"
+        }
+    },
+    laposte: {
+        desktop-webmail: {
+            "2021-08": "y"
         }
     }
 }
